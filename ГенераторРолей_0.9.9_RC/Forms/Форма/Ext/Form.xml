@@ -77,10 +77,11 @@
 									<CommandName>Form.Command.ВыгрузитьКонфигурациюВФайлы</CommandName>
 									<ExtendedTooltip name="ВыгрузитьКонфигурациюВФайлыРасширеннаяПодсказка" id="293"/>
 								</Button>
-								<Button name="ЗагрузитьКонфигурациюИзФайлов" id="294">
+								<Button name="ЗагрузитьКонфигурациюИзФайлов" id="321">
 									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ЗагрузитьКонфигурациюИзФайлов</CommandName>
-									<ExtendedTooltip name="ЗагрузитьКонфигурациюИзФайловРасширеннаяПодсказка" id="295"/>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<ExtendedTooltip name="ЗагрузитьКонфигурациюИзФайловРасширеннаяПодсказка" id="322"/>
 								</Button>
 							</ChildItems>
 						</UsualGroup>
@@ -1112,7 +1113,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить конфигурацию из файлов</v8:content>
+					<v8:content>Загрузить конфигурацию из файлов(Работает только для конфигурации не подключеной к хранилищу)</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ЗагрузитьКонфигурациюИзФайлов</Action>
